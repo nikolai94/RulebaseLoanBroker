@@ -32,9 +32,10 @@ public class RuleBase {
             return banksInJson;
         }
         ArrayList<Bank> listOfBanks = new ArrayList<Bank>();
-        listOfBanks.add(new Bank("Danske Bank", "1245",500));
-        listOfBanks.add(new Bank("Nordea", "6543",700));
-        listOfBanks.add(new Bank("Our bank", "9823", 0));
+        listOfBanks.add(new Bank("cphbusiness.bankJSON", "keyBankJSON",700));
+        listOfBanks.add(new Bank("cphbusiness.bankXML", "keyBankXML",500));
+        listOfBanks.add(new Bank("OurRabbitBank", "ourRabbitBankKey", 0));
+        //listOfBanks.add(new Bank("OurSoapXmlBank", "OurSoapXmlBank", 0));
         
         
         
