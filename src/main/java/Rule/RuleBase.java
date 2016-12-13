@@ -33,9 +33,9 @@ public class RuleBase {
         }
         ArrayList<Bank> listOfBanks = new ArrayList<Bank>();
         listOfBanks.add(new Bank("cphbusiness.bankJSON", "keyBankJSON",700));
-        listOfBanks.add(new Bank("cphbusiness.bankXML", "keyBankXML",500));
+        listOfBanks.add(new Bank("cphbusiness.bankXML", "keyBankXML",300));
         listOfBanks.add(new Bank("OurRabbitBank", "ourRabbitBankKey", 0));
-        //listOfBanks.add(new Bank("OurSoapXmlBank", "OurSoapXmlBank", 0));
+        listOfBanks.add(new Bank("ourBankSoapXML", "ourBankSoapXML", 50));
         
         
         
